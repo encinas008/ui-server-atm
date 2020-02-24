@@ -1,0 +1,272 @@
+/* :: 18.0 Breadcrumb Area CSS */
+.breadcrumb-area {
+    position: relative;
+    z-index: 1;
+    height: 200px;
+}
+
+@media only screen and (max-width: 767px) {
+    .breadcrumb-area {
+        height: 150px;
+    }
+}
+
+.breadcrumb-area .page-title {
+    /*color: #ffffff;*/
+    font-size: 48px;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .breadcrumb-area .page-title {
+        font-size: 36px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .breadcrumb-area .page-title {
+        font-size: 36px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .breadcrumb-area .page-title {
+        font-size: 24px;
+    }
+}
+
+.breadcrumb-area.contact-breadcrumb {
+    height: 400px;
+}
+
+@media only screen and (max-width: 767px) {
+    .breadcrumb-area.contact-breadcrumb {
+        height: 300px;
+    }
+}
+
+.breadcrumb-area .room-title {
+    font-size: 48px;
+    color: #ffffff;
+    margin-bottom: 0;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .breadcrumb-area .room-title {
+        font-size: 42px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .breadcrumb-area .room-title {
+        font-size: 30px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .breadcrumb-area .room-title {
+        font-size: 24px;
+    }
+}
+
+.breadcrumb-area .room-price {
+    font-size: 36px;
+    color: #1cc3b2;
+    margin-bottom: 0;
+}
+
+@media only screen and (max-width: 767px) {
+    .breadcrumb-area .room-price {
+        font-size: 14px;
+    }
+}
+
+.breadcrumb-area .room-price span {
+    font-size: 18px;
+    /*color: #ffffff;*/
+}
+
+@media only screen and (max-width: 767px) {
+    .breadcrumb-area .room-price span {
+        font-size: 12px;
+    }
+}
+
+.breadcrumb-content {
+    position: relative;
+    z-index: 1;
+}
+
+.breadcrumb-content .breadcrumb {
+    padding: 0;
+    background-color: transparent;
+    margin-bottom: 0;
+}
+
+.breadcrumb-content .breadcrumb .breadcrumb-item {
+    color: #6c757d;
+    text-transform: capitalize;
+}
+
+.breadcrumb-content .breadcrumb .breadcrumb-item a {
+    color: #6c757d;
+}
+
+.breadcrumb-content .breadcrumb .breadcrumb-item a:hover,
+.breadcrumb-content .breadcrumb .breadcrumb-item a:focus {
+    color: #6c757d;
+}
+
+.breadcrumb-content .breadcrumb .breadcrumb-item+.breadcrumb-item::before {
+    content: '\f105';
+    font-family: "FontAwesome";
+    color: #6c757d;
+}
+
+/**********************************************************************************/
+
+/* :: 16.0 Contact Area CSS */
+/*
+.roberto-contact-form {
+    position: relative;
+    z-index: 1;
+}
+
+.roberto-contact-form h2 {
+    margin-bottom: 30px;
+    font-size: 22px;
+    display: block;
+}
+
+@media only screen and (max-width: 767px) {
+    .roberto-contact-form h2 {
+        font-size: 24px;
+    }
+}
+
+.roberto-contact-form .form-control {
+    width: 100%;
+    height: 50px;
+    padding: 0 20px;
+    border-radius: 2px;
+    color: #afb4bf;
+    font-size: 14px;
+    border: 1px solid #ebebeb;
+}
+
+.roberto-contact-form .form-control:focus {
+    box-shadow: none;
+    border-color: #1cc3b2;
+}
+
+.roberto-contact-form textarea.form-control {
+    height: 150px;
+    padding: 20px;
+}
+*/
+
+.panel-menu-info {
+    position: relative;
+    z-index: 1;
+    margin-top: -25px;
+    margin-bottom: 30px;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .panel-menu-info {
+        padding-left: 0%;
+        padding-right: 0%;
+    }
+}
+
+.panel-menu-info-content{
+    position: relative;
+    z-index: 1;
+    background-color: #ffffff;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 2px 40px 8px rgba(15, 15, 15, 0.15);
+    box-shadow: 0 2px 40px 8px rgba(15, 15, 15, 0.15);
+    padding: 15px;
+}
+
+@media only screen and (max-width: 767px) {
+    .panel-menu-info-content {
+        padding: 20px;
+    }
+}
+
+.panel-menu-info-content .single-contact-info {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .panel-menu-info-content .single-contact-info h4 {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .panel-menu-info-content .single-contact-info h4 {
+        font-size: 14px;
+    }
+}
+
+.panel-menu-info-content .single-contact-info i {
+    display: inline-block;
+    font-size: 30px;
+    margin-bottom: 15px;
+    color: #1cc3b2;
+}
+
+@media only screen and (max-width: 767px) {
+    .panel-menu-info-content .single-contact-info i {
+        font-size: 24px;
+    }
+}
+
+.panel-menu-info-content .single-contact-info p {
+    margin-bottom: 0;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .panel-menu-info-content .single-contact-info p {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .panel-menu-info-content .single-contact-info p {
+        font-size: 12px;
+    }
+}
+
+.panel-menu-info-content .google-maps {
+    position: relative;
+    z-index: 1;
+}
+
+.panel-menu-info-content .google-maps iframe {
+    width: 100%;
+    height: 500px;
+    border: none;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .panel-menu-info-content .google-maps iframe {
+        height: 400px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .panel-menu-info-content .google-maps iframe {
+        height: 300px;
+    }
+}
+
+/***********************************************/
+.hTSrJn {
+    padding-bottom: 0px;
+    margin-top: -60px;
+}
+    
